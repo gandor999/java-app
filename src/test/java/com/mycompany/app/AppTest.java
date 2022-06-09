@@ -35,8 +35,8 @@ public class AppTest {
         assertEquals(1, Difference.subtract(3, 2), DELTA);
     }
 
-    // @Test
-    // public void shouldMultiplyTwoNumbers() {
-    //     assertEquals(6, Product.multiply(3, 2), DELTA);
-    // }
+    @Test
+    public void shouldMultiplyTwoNumbers() {
+        assertEquals(6, Product.multiply(3, 2), DELTA);
+    }
 }

@@ -1,0 +1,13 @@
+riskThreshold: 30
+automatedReleaseApproved: false
+useGithubEvents: true
+team:
+  role: Development
+  name: TIP Cloud DevEx
+ignoredFiles:
+  - "package-lock.json"
+riskInputs:
+  - name: testCoverage
+    covReportPath: "target/site/jacoco.xml"
+    coverageReportType: "jacocoXml"
+    getCoverageHistory: true
